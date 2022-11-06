@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <title>gym - тренировки</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="icon" href="favicon.ico">
+
+    <!-- apple icon -->
+    <link rel="apple-touch-startup-image" href="icon.png">
+    <link rel="apple-touch-icon" href="152.png">
+    <link rel="apple-touch-icon" href="167.png">
+    <link rel="apple-touch-icon" href="180.png">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="laptop">
+        <h6>извините попробуйте использовать телефон <br> размер вашего устройства немного больше чем мы думали</h6>
+    </div>
+    <div class="home">
+        <h1 class="fw-light">Здравствуй друг!</h1>
+          <p class="q"><span id="words">Цель тренировок — подтягивать ослабленное, укреплять тело и шлифовать дух.</span></p>
+      <script type="text/javascript">
+        (function () {
+          var words = [
+        "Если можешь что-то одно — доведи это до совершенства.",
+
+        "Враг будет вам благодарен, если вы не выложитесь на сто процентов.",
+
+        "Знай, что с первого раза ничего не получается. Упорно тренируйся, и всё получится.",
+
+        "Кто мало тренируется — тот мало живет.",
+
+        "Если вам не нравятся тренировки, значит тренеру не нравится ваша игра.",
+
+        "Тушите свою ярость на тренировках, а по улице ходите с улыбкой на лице.",
+
+        "Тренировка — это аккумулятор, который необходимо постоянно заряжать.",
+
+        "Тело помнит всё. Это действительно так.",
+
+        "Награда за тренировки — это не победы! Это то, кем ты становишься!",
+
+        "Тренируй тело, береги душу!",
+
+        "Для настоящих тренировок нужна свобода, а не ограничения.",
+
+        "Ум нуждается в тренировке больше, чем тело.",
+
+        "Что тренируется, то развивается...",
+
+        "Чтобы играть, надо тренироваться.",
+
+        "Дома, конечно, хорошо, — но на тренировке лучше!" 
+        ],
+          i = 0;
+          setInterval(function(){ $('#words').fadeOut(function(){
+              $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
+            }); }, 4000)
+        })();
+      </script>
+
+      <div class="button2">
+        <p>
+            <a href="razminka.html" class="floating-button">разминка</a>
+            <a href="fit.html" class="floating-button">тренировка</a>
+        </p>
+
+        <p class="footer">Не забывай! если не будешь выполнять разминку то на следующий день будешь страдать от боли в теле.</p>
+      </div>
+
+    </div>
+</body>
+</html>
+
+
+

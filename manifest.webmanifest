@@ -1,0 +1,15 @@
+{
+"background_color": "white",
+"description": "Удивительное приложение, которое поможет тебе накачаться с помощью гантель.",
+"display": "fullscreen",
+"icons": [
+    {
+      "src": "icon.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    }
+  ],
+  "name": "gym - тренировки",
+"short_name": "gym - тренировки",
+"start_url": "index.html"
+}
